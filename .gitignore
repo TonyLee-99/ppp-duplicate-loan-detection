@@ -1,0 +1,10 @@
+__pycache__/
+.venv/
+*.duckdb
+*.parquet
+data/
+labels/label_sample.csv
+labels/labels_raw.txt
+reports/review_sample.csv
+.DS_Store
+.tmp/

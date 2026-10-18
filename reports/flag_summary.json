@@ -1,0 +1,29 @@
+{
+  "threshold": 0.8,
+  "edges": 38925,
+  "model": {
+    "businesses": 36288.0,
+    "loans": 73657.0,
+    "extra_loans": 37369.0,
+    "extra_amount": 1053555256.0799984,
+    "share_multi_lender": 0.6795083774250441,
+    "chargeoff_rate": 0.1343524715912948
+  },
+  "exact_match_baseline": {
+    "businesses": 22574.0,
+    "loans": 45821.0,
+    "extra_loans": 23247.0,
+    "extra_amount": 710091921.0299995,
+    "share_multi_lender": 0.6511916363958536,
+    "chargeoff_rate": 0.1342834071713843
+  },
+  "chargeoff_rate_all_first_draw": 0.06155063539162406,
+  "ratio_flagged_vs_exact": 1.6075130681314787,
+  "manual_review": {
+    "sampled_businesses": 150,
+    "same_borrower": 145,
+    "undetermined": 5,
+    "clearly_wrong": 0,
+    "precision_strict": 0.9666666666666667
+  }
+}
